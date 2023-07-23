@@ -37,7 +37,7 @@ from sklearn.model_selection import train_test_split
 
 ## File descriptions 
 Projekt4.ipynb - Jupyter Notebook which contains the code and results 
-
+output folder - mostly text files with statistics, sometimes figures. No executable code, only results. 
 ## Acknowledgements
 To Arvato Financial Services for providing the data,
 to Udacity for teaching the skills,
