@@ -45,3 +45,38 @@ If the student chooses to submit a web-application, the following holds: There i
 
 ### Github Repository
 Student must have a Github repository of their project. The repository must have a README.md file that communicates the libraries used, the motivation for the project, the files in the repository with a small description of each, a summary of the results of the analysis, and necessary acknowledgements. If the student submits a web app rather than a blog post, then the Project Definition, Analysis, and Conclusion should be included in the README file, or in their Jupyter Notebook. Students should not use another student's code to complete the project, but they may use other references on the web including StackOverflow and Kaggle to complete the project.
+
+## Motivation for Project
+
+
+
+## Libraries
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+import gower
+
+from prince import MCA
+import prince
+from sklearn import datasets, cluster
+from sklearn.cluster import DBSCAN, KMeans
+from sklearn import random_projection
+from sklearn.decomposition import PCA
+from sklearn.model_selection import train_test_split
+
+## File descriptions 
+
+Projekt4.ipynb - Jupyter Notebook which contains the code and results 
+
+## Summary of the results
+
+## Acknowledgements
+
+To Arvato Financial Services for providing the data,
+to Udacity for teaching the skills,
+to the Python community who asks and answers so many questions that I was always able to relate to one when I encountered a problem. 
+
+
