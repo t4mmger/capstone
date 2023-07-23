@@ -1,0 +1,3 @@
+Cluster	Cluster	Absolute_Count	Relative_Value
+0	0	19550	1.0
+1	1	450	1.0
