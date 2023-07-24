@@ -22,18 +22,24 @@ supervised learning: This is still open and will be done the next days.
 - This will be useful for a future mailing campaign. 
 
 ## Libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import gower
-from prince import MCA
-import prince
-from sklearn import datasets, cluster
-from sklearn.cluster import DBSCAN, KMeans
-from sklearn import random_projection
-from sklearn.decomposition import PCA
-from sklearn.model_selection import train_test_split
+import numpy as np \n
+import pandas as pd \n
+import matplotlib.pyplot as plt \n
+import seaborn as sns \n
+import gower \n
+from prince import MCA \n
+from sklearn.cluster import KMeans, DBSCAN \n
+from sklearn import datasets, cluster \n
+from sklearn import random_projection \n
+from sklearn.decomposition import PCA \n
+from sklearn.model_selection import train_test_split, GridSearchCV \n
+from sklearn.preprocessing import StandardScaler \n
+from sklearn.metrics import mean_absolute_error, roc_curve, roc_auc_score \n
+from sklearn.linear_model import LogisticRegression \n
+from sklearn.pipeline import Pipeline \n
+
+import warnings
+from xgboost import XGBRegressor
 
 ## File descriptions 
 Projekt4.ipynb - Jupyter Notebook which contains the code and results 
